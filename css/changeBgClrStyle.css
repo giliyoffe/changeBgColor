@@ -1,0 +1,20 @@
+	body{
+		background-color: #567;
+	}
+	/*button*/
+	#nodeGoto {
+		padding: 10px 40px;
+	}
+	/*container of all the elemts*/
+	div {
+		margin: 30px 35% 30px 35%;
+		border-radius: 16px;
+		padding-top: 5%;
+		border: 5px solid #456;
+		background-color: rgba(255,6,36, 0.6);
+		text-align: center;
+	}
+	/*trail form element*/
+	form{
+		margin-right: 70%; 
+	}

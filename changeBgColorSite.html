@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Background Color Change</title>
+	<link rel="stylesheet" type="text/css" href="css/changeBgClrStyle.css">
+</head>
+<!-- style type="text/css">
+	body{
+		background-color: #567;
+	}
+	/*button*/
+	#nodeGoto {
+		padding: 10px 40px;
+	}
+	/*container of all the elemts*/
+	div {
+		margin: 30px 35% 30px 35%;
+		border-radius: 16px;
+		padding-top: 5%;
+		border: 5px solid #456;
+		background-color: rgba(255,6,36, 0.6);
+		text-align: center;
+	}
+
+	form{
+		margin-right: 70%; 
+	}
+</style>
+ -->
+
+<body>
+	<!-- wrapper element -->
+	<div>
+		<!-- TODO: <h4>Change Background Color</h4> -->
+		<input id="bgColorTxt" onfocus="if(this.value == 'write a color here') { this.value = ''; }" type="text" value="write a color here" />
+		<p>works with hexa (i.e. #456) and rgb(0, 255, 50) as well :) </p>
+
+		<input type="button" id="nodeGoto" value="and press the button" />
+	<br>
+		<p>enter works too &#9786; </p>
+
+	</div>
+	<script src="js/chngBgClrScript.js"></script>
+
+<!-- 
+	<script type="text/javascript">
+		document.getElementById('bgColorTxt').onkeypress = function(e) {
+			if (!e) e = window.event;
+			var keyCode = e.keyCode || e.which;
+			if (keyCode == '13') {
+				var txt = document.getElementById("bgColorTxt").value;
+				document.body.style.backgroundColor = txt
+			}
+		}
+		document.getElementById("nodeGoto").addEventListener("click", function yep() {
+			var txt = document.getElementById("bgColorTxt").value;
+			document.body.style.backgroundColor = txt;
+		});
+	</script> -->
+
+
+	
+	<!-- trail form element (small form test) -->
+	<form action="C:/Users/gili_/Downloads/code/changeBgColorSite/changeBgColorSite.html" target="_self" method="GET">
+	  <fieldset>
+	    <legend>Personal information:</legend>
+		First name:<br>
+		<input type="text" name="firstname" value="Tyler">
+		<br>
+		Last name:<br>
+		<input type="text" name="lastname" value="James	">
+		<br>
+		<input type="radio" name="gender" value="male" checked> Male<br>
+		<input type="radio" name="gender" value="female"> Female<br>
+		<input type="radio" name="gender" value="other"> Other<br>
+  		<input type="checkbox" name="music" value="loveMusic" checked="checked"> I love to listen to music<br>
+  		<input type="checkbox" name="music" value="playsInstrument"> I play an Instrument<br>
+  		<br><br>
+		<input type="submit" value="Submit">
+	  </fieldset>
+
+	</form> 
+
+
+
+</body>
+
+</html>
