@@ -1,2 +1,2 @@
 # changeBgColor
-site to change the background color with user input and a form test
+Site to change the background color with the user input and a form test
